@@ -1,0 +1,14 @@
+[
+	{
+		"sourcePath": "de/tum/in/ase/ClassTest",
+		"uniformPath": "de/tum/in/ase/ClassTest/generateTestsForAllClasses()"
+	},
+	{
+		"sourcePath": "de/tum/in/ase/DummyTest",
+		"uniformPath": "de/tum/in/ase/DummyTest/dummyTest()"
+	},
+	{
+		"sourcePath": "de/tum/in/ase/DummyTest",
+		"uniformPath": "de/tum/in/ase/DummyTest/dummyTest0()"
+	}
+]

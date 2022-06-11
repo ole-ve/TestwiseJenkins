@@ -1,0 +1,209 @@
+2022-06-08 21:57:38 DEBUG com.teamscale.jacoco.agent.Agent - Parsing options: config-file=/Users/oleve/Coding/TestwiseMaven/target/tia/agent.properties
+2022-06-08 21:57:38 INFO  com.teamscale.jacoco.agent.Agent - Starting JaCoCo's agent
+2022-06-08 21:57:38 DEBUG c.t.j.a.t.TestExecutionWriter - Writing test executions to /Users/oleve/Coding/TestwiseMaven/target/tia/reports/2022-06-08-21-57-38.281/test-execution-2022-06-08-21-57-38.419.json
+2022-06-08 21:57:38 INFO  c.t.j.a.t.TestwiseCoverageAgent - Starting JaCoCo agent for process 73909@MacBook-Pro-von-Ole.local with options: config-file=/Users/oleve/Coding/TestwiseMaven/target/tia/agent.properties
+2022-06-08 21:57:38 INFO  c.t.j.a.t.TestwiseCoverageAgent - Listening for test events on port 12888.
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: get, /partition, shadow.spark.RouteImpl$1@9f116cc
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: get, /message, shadow.spark.RouteImpl$1@1aa7ecca
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: get, /revision, shadow.spark.RouteImpl$1@5876a9af
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: get, /commit, shadow.spark.RouteImpl$1@5b239d7d
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: put, /partition, shadow.spark.RouteImpl$1@6b81ce95
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: put, /message, shadow.spark.RouteImpl$1@6d763516
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: put, /revision, shadow.spark.RouteImpl$1@37afeb11
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: put, /commit, shadow.spark.RouteImpl$1@dd8ba08
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: get, /test, shadow.spark.RouteImpl$1@6c64cb25
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: post, /test/start/:testId, shadow.spark.RouteImpl$1@222545dc
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: post, /test/end/:testId, shadow.spark.RouteImpl$1@16293aa2
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: post, /testrun/start, shadow.spark.RouteImpl$1@595b007d
+2022-06-08 21:57:38 DEBUG shadow.spark.route.Routes - Adds route: post, /testrun/end, shadow.spark.RouteImpl$1@2d7275fc
+2022-06-08 21:57:38 INFO  s.s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+2022-06-08 21:57:38 INFO  s.s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:12888
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/ClassTest/generateTestsForAllClasses()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - Start test de/tum/in/ase/ClassTest/generateTestsForAllClasses()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/ClassTest/generateTestsForAllClasses() started
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1]
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - Start test de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1]
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1] started
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1]
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - End test de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1]
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1] ended with test execution TestExecution{uniformPath='de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1]', durationMillis=53, duration=null, result=PASSED, message='null'}
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/ClassTest/generateTestsForAllClasses()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - End test de/tum/in/ase/ClassTest/generateTestsForAllClasses()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/ClassTest/generateTestsForAllClasses() ended with test execution TestExecution{uniformPath='de/tum/in/ase/ClassTest/generateTestsForAllClasses()', durationMillis=63, duration=null, result=PASSED, message='null'}
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/DummyTest/dummyTest()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - Start test de/tum/in/ase/DummyTest/dummyTest()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/DummyTest/dummyTest() started
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/DummyTest/dummyTest()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - End test de/tum/in/ase/DummyTest/dummyTest()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/DummyTest/dummyTest() ended with test execution TestExecution{uniformPath='de/tum/in/ase/DummyTest/dummyTest()', durationMillis=6, duration=null, result=PASSED, message='null'}
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/DummyTest/dummyTest0()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - Start test de/tum/in/ase/DummyTest/dummyTest0()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/DummyTest/dummyTest0() started
+2022-06-08 21:57:39 DEBUG shadow.spark.Request - matchedPart: :testId = de/tum/in/ase/DummyTest/dummyTest0()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.TestwiseCoverageAgent - End test de/tum/in/ase/DummyTest/dummyTest0()
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Test de/tum/in/ase/DummyTest/dummyTest0() ended with test execution TestExecution{uniformPath='de/tum/in/ase/DummyTest/dummyTest0()', durationMillis=26, duration=null, result=PASSED, message='null'}
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Creating testwise coverage form available tests `[de/tum/in/ase/ClassTest/generateTestsForAllClasses(), de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1], de/tum/in/ase/DummyTest/dummyTest(), de/tum/in/ase/DummyTest/dummyTest0()]`, test executions `[de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1], de/tum/in/ase/ClassTest/generateTestsForAllClasses(), de/tum/in/ase/DummyTest/dummyTest(), de/tum/in/ase/DummyTest/dummyTest0()]` and exec file
+2022-06-08 21:57:39 DEBUG c.t.j.a.t.CoverageToTeamscaleStrategy - Created testwise coverage report (containing coverage for tests `[de/tum/in/ase/DummyTest/dummyTest0(), de/tum/in/ase/DummyTest/dummyTest()]`)
+2022-06-08 21:57:39 ERROR c.t.j.a.t.CoverageToTeamscaleStrategy - Failed to upload coverage to Teamscale! Report is stored in /Users/oleve/Coding/TestwiseMaven/target/tia/reports/2022-06-08-21-57-38.281/testwise-coverage-2022-06-08-21-57-39.391.json!
+java.io.IOException: Failed to upload report. Failed to connect to localhost/[0:0:0:0:0:0:0:1]:80
+	at shadow.com.teamscale.client.ITeamscaleService.uploadReport(ITeamscaleService.java:179)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at shadow.retrofit2.Platform.invokeDefaultMethod(Platform.java:109)
+	at shadow.retrofit2.Retrofit$1.invoke(Retrofit.java:159)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.uploadReport(Unknown Source)
+	at shadow.com.teamscale.client.TeamscaleClient.uploadReport(TeamscaleClient.java:194)
+	at com.teamscale.jacoco.agent.testimpact.CoverageToTeamscaleStrategy.testRunEnd(CoverageToTeamscaleStrategy.java:116)
+	at com.teamscale.jacoco.agent.testimpact.TestwiseCoverageAgent.handleTestRunEnd(TestwiseCoverageAgent.java:128)
+	at shadow.spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at shadow.spark.http.matching.Routes.execute(Routes.java:61)
+	at shadow.spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at shadow.spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at shadow.org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1584)
+	at shadow.org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at shadow.org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at shadow.org.eclipse.jetty.server.Server.handle(Server.java:501)
+	at shadow.org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at shadow.org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:556)
+	at shadow.org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at shadow.org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at shadow.org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at shadow.org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at shadow.org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at shadow.org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at shadow.org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at shadow.org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:80
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:297)
+	at shadow.okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+	at shadow.okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+	at shadow.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.TeamscaleServiceGenerator$AcceptJsonInterceptor.intercept(TeamscaleServiceGenerator.java:66)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.HttpUtils.lambda$getBasicAuthInterceptor$1(HttpUtils.java:157)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at shadow.okhttp3.internal.connection.RealCall.execute(RealCall.kt:154)
+	at shadow.retrofit2.OkHttpCall.execute(OkHttpCall.java:204)
+	at shadow.com.teamscale.client.ITeamscaleService.uploadReport(ITeamscaleService.java:165)
+	... 30 common frames omitted
+	Suppressed: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:80
+		... 52 common frames omitted
+	Caused by: java.net.ConnectException: Connection refused
+		at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+		at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+		at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+		at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+		... 51 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+	... 51 common frames omitted
+2022-06-08 21:57:39 ERROR c.t.j.a.t.TestwiseCoverageAgent - Request to /testrun/end failed with an exception
+java.io.IOException: Failed to upload coverage to Teamscale! Report is stored in /Users/oleve/Coding/TestwiseMaven/target/tia/reports/2022-06-08-21-57-38.281/testwise-coverage-2022-06-08-21-57-39.391.json!
+	at com.teamscale.jacoco.agent.testimpact.CoverageToTeamscaleStrategy.testRunEnd(CoverageToTeamscaleStrategy.java:126)
+	at com.teamscale.jacoco.agent.testimpact.TestwiseCoverageAgent.handleTestRunEnd(TestwiseCoverageAgent.java:128)
+	at shadow.spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at shadow.spark.http.matching.Routes.execute(Routes.java:61)
+	at shadow.spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at shadow.spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at shadow.org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1584)
+	at shadow.org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at shadow.org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at shadow.org.eclipse.jetty.server.Server.handle(Server.java:501)
+	at shadow.org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at shadow.org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:556)
+	at shadow.org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at shadow.org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at shadow.org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at shadow.org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at shadow.org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at shadow.org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at shadow.org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at shadow.org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at shadow.org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Failed to upload report. Failed to connect to localhost/[0:0:0:0:0:0:0:1]:80
+	at shadow.com.teamscale.client.ITeamscaleService.uploadReport(ITeamscaleService.java:179)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at shadow.retrofit2.Platform.invokeDefaultMethod(Platform.java:109)
+	at shadow.retrofit2.Retrofit$1.invoke(Retrofit.java:159)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.uploadReport(Unknown Source)
+	at shadow.com.teamscale.client.TeamscaleClient.uploadReport(TeamscaleClient.java:194)
+	at com.teamscale.jacoco.agent.testimpact.CoverageToTeamscaleStrategy.testRunEnd(CoverageToTeamscaleStrategy.java:116)
+	... 24 common frames omitted
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:80
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:297)
+	at shadow.okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+	at shadow.okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+	at shadow.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.TeamscaleServiceGenerator$AcceptJsonInterceptor.intercept(TeamscaleServiceGenerator.java:66)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.HttpUtils.lambda$getBasicAuthInterceptor$1(HttpUtils.java:157)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at shadow.okhttp3.internal.connection.RealCall.execute(RealCall.kt:154)
+	at shadow.retrofit2.OkHttpCall.execute(OkHttpCall.java:204)
+	at shadow.com.teamscale.client.ITeamscaleService.uploadReport(ITeamscaleService.java:165)
+	... 30 common frames omitted
+	Suppressed: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:80
+		... 52 common frames omitted
+	Caused by: java.net.ConnectException: Connection refused
+		at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+		at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+		at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+		at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+		... 51 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+	... 51 common frames omitted
+2022-06-08 21:57:39 INFO  c.t.j.a.t.TestwiseCoverageAgent - CQSE JaCoCo agent successfully shut down.
+2022-06-08 21:57:39 INFO  s.s.e.jetty.EmbeddedJettyServer - >>> Spark shutting down ...

@@ -1,0 +1,22 @@
+[
+	{
+		"durationMillis": 44,
+		"result": "PASSED",
+		"uniformPath": "de/tum/in/ase/ClassTest/generateTestsForAllClasses()[1][1]"
+	},
+	{
+		"durationMillis": 61,
+		"result": "PASSED",
+		"uniformPath": "de/tum/in/ase/ClassTest/generateTestsForAllClasses()"
+	},
+	{
+		"durationMillis": 3,
+		"result": "PASSED",
+		"uniformPath": "de/tum/in/ase/DummyTest/dummyTest()"
+	},
+	{
+		"durationMillis": 22,
+		"result": "PASSED",
+		"uniformPath": "de/tum/in/ase/DummyTest/dummyTest0()"
+	}
+]

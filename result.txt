@@ -1,0 +1,218 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< de.tum.in.ase:TestwiseMaven-Tests >------------------
+[INFO] Building TestwiseMaven Test 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TestwiseMaven-Tests ---
+[INFO] Deleting /Users/oleve/Coding/TestwiseMaven/target
+[INFO] 
+[INFO] --- teamscale-maven-plugin:24.0.1:prepare-tia-unit-test (default) @ TestwiseMaven-Tests ---
+[INFO] Agent config file created at /Users/oleve/Coding/TestwiseMaven/target/tia/agent.properties
+[INFO] argLine set to -Dteamscale.markstart -javaagent:/Users/oleve/.m2/repository/com/teamscale/teamscale-jacoco-agent/23.1.1/teamscale-jacoco-agent-23.1.1.jar=config-file=/Users/oleve/Coding/TestwiseMaven/target/tia/agent.properties -DTEAMSCALE_AGENT_LOG_FILE=/Users/oleve/Coding/TestwiseMaven/target/tia/agent.log -DTEAMSCALE_AGENT_LOG_LEVEL=DEBUG -Dteamscale.markend
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TestwiseMaven-Tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/oleve/Coding/TestwiseMaven/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.9.0:compile (default-compile) @ TestwiseMaven-Tests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/oleve/Coding/TestwiseMaven/target/classes
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (enforce-no-student-code-in-trusted-packages) @ TestwiseMaven-Tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TestwiseMaven-Tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.9.0:testCompile (default-testCompile) @ TestwiseMaven-Tests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/oleve/Coding/TestwiseMaven/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ TestwiseMaven-Tests ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+22:35:21,129 |-INFO in shadow.ch.qos.logback.classic.LoggerContext[Ares] - Could NOT find resource [logback-test.xml]
+22:35:21,129 |-INFO in shadow.ch.qos.logback.classic.LoggerContext[Ares] - Could NOT find resource [logback.groovy]
+22:35:21,129 |-INFO in shadow.ch.qos.logback.classic.LoggerContext[Ares] - Found resource [logback.xml] at [jar:file:/Users/oleve/.m2/repository/de/tum/in/ase/artemis-java-test-sandbox/1.9.2/artemis-java-test-sandbox-1.9.2.jar!/logback.xml]
+22:35:21,132 |-INFO in shadow.ch.qos.logback.core.joran.spi.ConfigurationWatchList@7c541c15 - URL [jar:file:/Users/oleve/.m2/repository/de/tum/in/ase/artemis-java-test-sandbox/1.9.2/artemis-java-test-sandbox-1.9.2.jar!/logback.xml] is not of type file
+22:35:21,138 |-INFO in shadow.ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+22:35:21,138 |-INFO in shadow.ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [Ares]
+22:35:21,139 |-INFO in shadow.ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [de.tum.in.test.api.security.FixSystemErrAppender]
+22:35:21,144 |-ERROR in shadow.ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [de.tum.in.test.api.security.FixSystemErrAppender]. shadow.ch.qos.logback.core.util.IncompatibleClassException
+	at shadow.ch.qos.logback.core.util.IncompatibleClassException
+	at 	at shadow.ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:58)
+	at 	at shadow.ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:45)
+	at 	at shadow.ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:34)
+	at 	at shadow.ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:52)
+	at 	at shadow.ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:269)
+	at 	at shadow.ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:145)
+	at 	at shadow.ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:128)
+	at 	at shadow.ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
+	at 	at shadow.ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)
+	at 	at shadow.ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:150)
+	at 	at shadow.org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:84)
+	at 	at shadow.org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
+	at 	at shadow.org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at 	at shadow.org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at 	at shadow.org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:417)
+	at 	at shadow.org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:362)
+	at 	at shadow.org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:388)
+	at 	at shadow.com.teamscale.client.HttpUtils.<clinit>(HttpUtils.java:30)
+	at 	at shadow.com.teamscale.client.TeamscaleServiceGenerator.createServiceWithRequestLogging(TeamscaleServiceGenerator.java:44)
+	at 	at shadow.com.teamscale.client.TeamscaleClient.<init>(TeamscaleClient.java:63)
+	at 	at shadow.com.teamscale.test_impacted.engine.options.TestEngineOptions.createTestExecutor(TestEngineOptions.java:97)
+	at 	at shadow.com.teamscale.test_impacted.engine.options.TestEngineOptions.createTestEngineConfiguration(TestEngineOptions.java:85)
+	at 	at shadow.com.teamscale.test_impacted.engine.ImpactedTestEngine.discover(ImpactedTestEngine.java:28)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverEngineRoot(EngineDiscoveryOrchestrator.java:152)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverSafely(EngineDiscoveryOrchestrator.java:134)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:108)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:80)
+	at 	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:110)
+	at 	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:78)
+	at 	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.discover(DefaultLauncherSession.java:81)
+	at 	at org.junit.platform.launcher.core.SessionPerRequestLauncher.discover(SessionPerRequestLauncher.java:46)
+	at 	at com.teamscale.maven.surefire.TestPlanScannerFilter.accept(TestPlanScannerFilter.java:58)
+	at 	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:102)
+	at 	at com.teamscale.maven.surefire.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:151)
+	at 	at com.teamscale.maven.surefire.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:132)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+22:35:21,144 |-ERROR in shadow.ch.qos.logback.core.joran.spi.Interpreter@9:60 - ActionException in Action for tag [appender] shadow.ch.qos.logback.core.joran.spi.ActionException: shadow.ch.qos.logback.core.util.IncompatibleClassException
+	at shadow.ch.qos.logback.core.joran.spi.ActionException: shadow.ch.qos.logback.core.util.IncompatibleClassException
+	at 	at shadow.ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:76)
+	at 	at shadow.ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:269)
+	at 	at shadow.ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:145)
+	at 	at shadow.ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:128)
+	at 	at shadow.ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
+	at 	at shadow.ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
+	at 	at shadow.ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)
+	at 	at shadow.ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:150)
+	at 	at shadow.org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:84)
+	at 	at shadow.org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
+	at 	at shadow.org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at 	at shadow.org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at 	at shadow.org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:417)
+	at 	at shadow.org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:362)
+	at 	at shadow.org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:388)
+	at 	at shadow.com.teamscale.client.HttpUtils.<clinit>(HttpUtils.java:30)
+	at 	at shadow.com.teamscale.client.TeamscaleServiceGenerator.createServiceWithRequestLogging(TeamscaleServiceGenerator.java:44)
+	at 	at shadow.com.teamscale.client.TeamscaleClient.<init>(TeamscaleClient.java:63)
+	at 	at shadow.com.teamscale.test_impacted.engine.options.TestEngineOptions.createTestExecutor(TestEngineOptions.java:97)
+	at 	at shadow.com.teamscale.test_impacted.engine.options.TestEngineOptions.createTestEngineConfiguration(TestEngineOptions.java:85)
+	at 	at shadow.com.teamscale.test_impacted.engine.ImpactedTestEngine.discover(ImpactedTestEngine.java:28)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverEngineRoot(EngineDiscoveryOrchestrator.java:152)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverSafely(EngineDiscoveryOrchestrator.java:134)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:108)
+	at 	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:80)
+	at 	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:110)
+	at 	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:78)
+	at 	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.discover(DefaultLauncherSession.java:81)
+	at 	at org.junit.platform.launcher.core.SessionPerRequestLauncher.discover(SessionPerRequestLauncher.java:46)
+	at 	at com.teamscale.maven.surefire.TestPlanScannerFilter.accept(TestPlanScannerFilter.java:58)
+	at 	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:102)
+	at 	at com.teamscale.maven.surefire.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:151)
+	at 	at com.teamscale.maven.surefire.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:132)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: shadow.ch.qos.logback.core.util.IncompatibleClassException
+	at 	at shadow.ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:58)
+	at 	at shadow.ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:45)
+	at 	at shadow.ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:34)
+	at 	at shadow.ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:52)
+	at 	... 39 common frames omitted
+22:35:21,144 |-INFO in shadow.ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+22:35:21,144 |-ERROR in shadow.ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+22:35:21,144 |-ERROR in shadow.ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+22:35:21,144 |-INFO in shadow.ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+22:35:21,145 |-INFO in shadow.ch.qos.logback.classic.joran.JoranConfigurator@1e7aa82b - Registering current configuration as safe fallback point
+
+Juni 03, 2022 10:35:21 PM shadow.com.teamscale.test_impacted.engine.executor.ImpactedTestsProvider getImpactedTestsFromTeamscale
+INFO: Getting impacted tests...
+Juni 03, 2022 10:35:21 PM shadow.com.teamscale.test_impacted.engine.executor.ImpactedTestsProvider getImpactedTestsFromTeamscale
+SEVERE: Retrieval of impacted tests failed.
+java.net.ConnectException: Failed to connect to /127.0.0.1:80
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:297)
+	at shadow.okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+	at shadow.okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+	at shadow.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.FileLoggingInterceptor.getResponse(FileLoggingInterceptor.java:64)
+	at shadow.com.teamscale.client.FileLoggingInterceptor.intercept(FileLoggingInterceptor.java:43)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.TeamscaleServiceGenerator$AcceptJsonInterceptor.intercept(TeamscaleServiceGenerator.java:72)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.HttpUtils.lambda$getBasicAuthInterceptor$1(HttpUtils.java:157)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at shadow.okhttp3.internal.connection.RealCall.execute(RealCall.kt:154)
+	at shadow.retrofit2.OkHttpCall.execute(OkHttpCall.java:204)
+	at shadow.com.teamscale.client.TeamscaleClient.getImpactedTests(TeamscaleClient.java:151)
+	at shadow.com.teamscale.client.TeamscaleClient.getImpactedTests(TeamscaleClient.java:103)
+	at shadow.com.teamscale.test_impacted.engine.executor.ImpactedTestsProvider.getImpactedTestsFromTeamscale(ImpactedTestsProvider.java:55)
+	at shadow.com.teamscale.test_impacted.engine.executor.ImpactedTestsExecutor.execute(ImpactedTestsExecutor.java:34)
+	at shadow.com.teamscale.test_impacted.engine.InternalImpactedTestEngine.runTestExecutor(InternalImpactedTestEngine.java:105)
+	at shadow.com.teamscale.test_impacted.engine.InternalImpactedTestEngine.execute(InternalImpactedTestEngine.java:83)
+	at shadow.com.teamscale.test_impacted.engine.ImpactedTestEngine.execute(ImpactedTestEngine.java:45)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.teamscale.maven.surefire.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:192)
+	at com.teamscale.maven.surefire.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:158)
+	at com.teamscale.maven.surefire.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:132)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+	... 46 more
+
+[INFO] Running de.tum.in.ase.DummyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in de.tum.in.ase.DummyTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.144 s
+[INFO] Finished at: 2022-06-03T22:35:21+02:00
+[INFO] ------------------------------------------------------------------------

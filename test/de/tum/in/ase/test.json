@@ -1,0 +1,7 @@
+[ {
+  "class" : {
+    "name" : "DummyClass",
+    "package" : "de.tum.in.ase",
+    "interfaces" : [ "SortStrategy" ]
+  }
+} ]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="de.tum.in.ase.DummyTest" time="0.062" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/oleve/Coding/TestwiseMaven/target/test-classes:/Users/oleve/Coding/TestwiseMaven/target/classes:/Users/oleve/.m2/repository/de/tum/in/ase/artemis-java-test-sandbox/1.10.1/artemis-java-test-sandbox-1.10.1.jar:/Users/oleve/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/oleve/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/oleve/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/oleve/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/oleve/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/oleve/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/oleve/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/oleve/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar:/Users/oleve/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/oleve/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/oleve/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/oleve/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/oleve/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/Users/oleve/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/oleve/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/oleve/.m2/repository/info/debatty/java-string-similarity/2.0.0/java-string-similarity-2.0.0.jar:/Users/oleve/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="teamscale.test.impacted.reportDirectory" value="/Users/oleve/Coding/TestwiseMaven/target/tia"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/oleve/Coding/TestwiseMaven/target/surefire/surefirebooter17118943449379120651.jar /Users/oleve/Coding/TestwiseMaven/target/surefire 2022-06-08T21-57-38_045-jvmRun1 surefire15054721397853467146tmp surefire_08852587612801054740tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/oleve/Coding/TestwiseMaven/target/test-classes:/Users/oleve/Coding/TestwiseMaven/target/classes:/Users/oleve/.m2/repository/de/tum/in/ase/artemis-java-test-sandbox/1.10.1/artemis-java-test-sandbox-1.10.1.jar:/Users/oleve/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/oleve/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/oleve/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/oleve/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/oleve/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/oleve/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/oleve/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/oleve/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar:/Users/oleve/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/oleve/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/oleve/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/oleve/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/oleve/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/Users/oleve/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/oleve/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/oleve/.m2/repository/info/debatty/java-string-similarity/2.0.0/java-string-similarity-2.0.0.jar:/Users/oleve/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:"/>
+    <property name="teamscale.markstart" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/oleve"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ares.security.trustedpackages" value="okhttp3,com.teamscale,retrofit2,shadow,com.squareup,okio"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/oleve/Coding/TestwiseMaven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="teamscale.test.impacted.server.project" value="TestwiseMaven-Tests"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="teamscale.test.impacted.endCommit" value="main:1653560635000"/>
+    <property name="teamscale.test.impacted.agentsUrls" value="http://localhost:12888"/>
+    <property name="surefire.real.class.path" value="/Users/oleve/Coding/TestwiseMaven/target/surefire/surefirebooter17118943449379120651.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="teamscale.markend" value=""/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="oleve"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.3.1"/>
+    <property name="teamscale.test.impacted.server.userAccessToken" value="dummy"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="TEAMSCALE_AGENT_LOG_LEVEL" value="DEBUG"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="TEAMSCALE_AGENT_LOG_FILE" value="/Users/oleve/Coding/TestwiseMaven/target/tia/agent.log"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="teamscale.test.impacted.server.userName" value="dummy"/>
+    <property name="localRepository" value="/Users/oleve/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="jetty.git.hash" value="450ba27947e13e66baa8cd1ce7e85a4461cacc1d"/>
+    <property name="java.io.tmpdir" value="/var/folders/cb/zq69r37s54j9mm1356_fynmr0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/oleve/Coding/TestwiseMaven"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/oleve/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="teamscale.test.impacted.server.url" value="http://localhost"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="dummyTest" classname="de.tum.in.ase.DummyTest" time="0.006"/>
+  <testcase name="dummyTest0" classname="de.tum.in.ase.DummyTest" time="0.027">
+    <system-err><![CDATA[[DEBUG] [main] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [main] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/oleve/Coding/TestwiseMaven, whitelistedPaths=Optional[[]], blacklistedPaths=[], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [main] Request uninstall
+[DEBUG] [main] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [main] Request install with ASC-Impl [testMethod=Optional[public void de.tum.in.ase.DummyTest.dummyTest0()], executionPath=/Users/oleve/Coding/TestwiseMaven, whitelistedPaths=Optional[[]], blacklistedPaths=[], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [main] Request uninstall
+]]></system-err>
+  </testcase>
+</testsuite>

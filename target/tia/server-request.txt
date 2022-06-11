@@ -1,0 +1,77 @@
+--> Sending request PUT on http://localhost/api/v7.6.0/projects/TestwiseMaven-Tests/impacted-tests?prioritization-strategy=CHEAP_ADDITIONAL_COVERAGE_PER_TIME&end=main%3A1653560635000&include-non-impacted=false&include-failed-and-skipped=true&ensure-processed=true&include-added-tests=true null
+Authorization: ██
+Accept: application/json
+
+[{"clusterId":"de.tum.in.ase.ClassTest","sourcePath":"de/tum/in/ase/ClassTest","uniformPath":"de/tum/in/ase/ClassTest/generateTestsForAllClasses()"},{"clusterId":"de.tum.in.ase.DummyTest","sourcePath":"de/tum/in/ase/DummyTest","uniformPath":"de/tum/in/ase/DummyTest/dummyTest()"},{"clusterId":"de.tum.in.ase.DummyTest","sourcePath":"de/tum/in/ase/DummyTest","uniformPath":"de/tum/in/ase/DummyTest/dummyTest0()"}]
+
+Request failed!
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:80
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:297)
+	at shadow.okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+	at shadow.okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+	at shadow.okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+	at shadow.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.FileLoggingInterceptor.getResponse(FileLoggingInterceptor.java:64)
+	at shadow.com.teamscale.client.FileLoggingInterceptor.intercept(FileLoggingInterceptor.java:43)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.TeamscaleServiceGenerator$AcceptJsonInterceptor.intercept(TeamscaleServiceGenerator.java:72)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.com.teamscale.client.HttpUtils.lambda$getBasicAuthInterceptor$1(HttpUtils.java:157)
+	at shadow.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at shadow.okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at shadow.okhttp3.internal.connection.RealCall.execute(RealCall.kt:154)
+	at shadow.retrofit2.OkHttpCall.execute(OkHttpCall.java:204)
+	at shadow.com.teamscale.client.TeamscaleClient.getImpactedTests(TeamscaleClient.java:151)
+	at shadow.com.teamscale.client.TeamscaleClient.getImpactedTests(TeamscaleClient.java:103)
+	at shadow.com.teamscale.test_impacted.engine.executor.ImpactedTestsProvider.getImpactedTestsFromTeamscale(ImpactedTestsProvider.java:55)
+	at shadow.com.teamscale.test_impacted.engine.executor.ImpactedTestsExecutor.execute(ImpactedTestsExecutor.java:34)
+	at shadow.com.teamscale.test_impacted.engine.InternalImpactedTestEngine.runTestExecutor(InternalImpactedTestEngine.java:105)
+	at shadow.com.teamscale.test_impacted.engine.InternalImpactedTestEngine.execute(InternalImpactedTestEngine.java:83)
+	at shadow.com.teamscale.test_impacted.engine.ImpactedTestEngine.execute(ImpactedTestEngine.java:45)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.teamscale.maven.surefire.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:192)
+	at com.teamscale.maven.surefire.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:158)
+	at com.teamscale.maven.surefire.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:132)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	Suppressed: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:80
+		... 47 more
+	Caused by: java.net.ConnectException: Connection refused
+		at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+		at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+		at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+		at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+		... 46 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at shadow.okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+	at shadow.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+	... 46 more
