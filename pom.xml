@@ -143,9 +143,6 @@
                             <includes>
                                 <include>*de.tum.in.ase.*</include>
                             </includes>
-                            <additionalAgentOptions>
-                                <agentOption>out=</agentOption>
-                            </additionalAgentOptions>
                         </configuration>
                         <executions>
                             <execution>
