@@ -134,7 +134,7 @@
                         <artifactId>teamscale-maven-plugin</artifactId>
                         <version>24.0.1-SNAPSHOT</version>
                         <configuration>
-                            <teamscaleUrl>http://localhost</teamscaleUrl>
+                            <teamscaleUrl>http://localhost:1234</teamscaleUrl>
                             <accessToken>dummy</accessToken>
                             <projectId>TestwiseMaven-Tests</projectId>
                             <username>dummy</username>
